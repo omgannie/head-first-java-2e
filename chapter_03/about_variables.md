@@ -53,7 +53,8 @@ Things to know about object reference variables:
 * It represents one and only one object that JVM knows how to use to reference to the actual object.
 * All references for a given JVM are the same size regardless of the objects they reference
 * You can use the dot operator to access methods that the object reference variable is associated with.
-  example:
+
+example:
   ```java
   Dog myDog = new Dog();
   // 'Dog myDog' - this declaration tells the JVM to allocate space for a reference variable and names it 'myDog'
